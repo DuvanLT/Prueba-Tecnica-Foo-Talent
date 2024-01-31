@@ -1,7 +1,7 @@
 export default function Footer() {
     return(
         <>
-        <footer className="bg-blue-500 h-40 flex items-start justify-center text-white flex-col pl-20">
+        <footer className="bg-blue-500 flex items-start justify-center text-white flex-col p-10 pl-20">
             <p>
                 Esta pagina fue realizada para la entrega de la prueba tecnica para la compañia Foo Talent Group por Duvan Mancilla
             </p>
