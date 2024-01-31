@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+APLICACION WEB Creada usando la API de Poke API, utilizando Next.js como Framework de la libreria React.
 
-## Getting Started
 
-First, run the development server:
+## COMO DESPLEGAR
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Descarga o clona el repositorio del perfil https://github.com/DuvanLT/Prueba-Tecnica-Foo-Talent 
+- Asegurate de tener Node.js(npm) en tu dispositivo
+- Ingresa a la carpeta del archivo cd (nombrecarpeta)
+- realiza un npm install para asegurarte que estan todas las dependecias de la libreria React instaladas
+- realiza un npm run dev y abre en tu navegador el enlace proporcionado, por defecto suele ser http://localhost:3000/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## HERRAMIENTAS UTILIZADAS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Se utilizo Tailwind CSS, framework de CSS que incorpora clases ya estilizadas para la creacion y estilizacion rapida de la aplicacion web
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para ciertos estilos se hizo uso de CSS de manera tradicional
 
-## Learn More
+-React JS
+-Next JS
 
-To learn more about Next.js, take a look at the following resources:
+Uso de la libreria React JS con su Framework Next.js por vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Se realizo el deploy por medio de la plataforma online https://www.netlify.com/
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## AUTOR: Duvan Mancilla 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+linkedin: https://www.linkedin.com/in/duvan-mancilla/
+github: https://github.com/DuvanLT
+portafolio web: https://duvandev.netlify.app/
+
+## AGRADECIMIENTOS
+
+Quiero agradecer al equipo de foo talent group por permitirme poner apruebas mis habiliades con esta prueba tecnica la cual fue desarrollada con mucho amor.<3
