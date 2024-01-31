@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.openNav{
+  top: -9999px;
+}
+
+.closeNav{
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .openNav{
+    top: 0px;
+  }
+  
+}
