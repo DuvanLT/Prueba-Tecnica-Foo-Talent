@@ -55,7 +55,7 @@ const PokemonList = () => {
 
         <div className={`flex ${ordenDescendente ? 'flex-row-reverse' : 'flex-row'} overflow-x-auto gap-2 justify-start items-center mt-20 `}>
             {pokemon.map(pokemons => (
-                 <PokemonCard pokemon={pokemons} key={pokemon.id} />
+                 <PokemonCard pokemon={pokemons} key={pokemons.id} />
             ))}
         </div>
         </div>
