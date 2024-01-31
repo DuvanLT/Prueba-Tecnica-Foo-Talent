@@ -17,6 +17,11 @@ export default function Nav (){
         </div>
         <ul className={`flex flex-col font-extrabold justify-center  items-center absolute bg-blue-500 w-screen h-screen  z-50 gap-4 text-xl md:text-xs  transition-all duration-300 md:flex-row md:relative md:w-fit md:h-fit ${nav ? "closeNav" : "openNav"}`}>
         <li>  
+            <Link href="/" onClick={handleClick} className='hover:text-white'>    
+           INICIO
+           </Link>  
+        </li>
+        <li>  
             <a href="#probar" onClick={handleClick} className='hover:text-white'>    
             PROBAR APP
             </a>  
