@@ -40,10 +40,10 @@ const PokemonPage = () => {
                 {/* Enlace para regresar a la página principal */}
                 <div className='flex justify-start items-start flex-col m-10'>
                     <Link href="/" className='h-20 flex items-center justify-center'>
-                        <span className='bg-rose-500 p-2 rounded-2xl font-semibold'>Regresar</span>
+                        <span className='bg-rose-500 p-2 rounded-2xl font-semibold text-white'>Regresar</span>
                     </Link>
                     {/* Información detallada del Pokémon */}
-                    <h2 className='text-4xl font-semibold mb-5 uppercase'>#{pokemon.id} {pokemon.name}</h2>
+                    <h2 className='text-4xl font-semibold mb-5 uppercase text-blue-500'>#{pokemon.id} {pokemon.name}</h2>
                     <div className='flex gap-2 md:gap-10 flex-wrap'>
                         <p><span className='font-semibold'>Peso:</span> {pokemon.weight}kg</p>
                         <p><span className='font-semibold'>Altura:</span> {pokemon.height}m</p>
@@ -60,7 +60,7 @@ const PokemonPage = () => {
                     <img src={pokemon.sprites.back_shiny} alt="Imagen trasera del Pokémon shiny" className='w-40' />
                 </picture>
                 {/* Lista de todos los movimientos posibles del Pokémon */}
-                <h3 className='text-2xl font-semibold mb-5 ml-10'>TODOS LOS MOVIMIENTOS POSIBLES:</h3>
+                <h3 className='text-2xl font-semibold mb-5 ml-10 text-blue-500'>TODOS LOS MOVIMIENTOS POSIBLES:</h3>
                 <p className='m-10'>{pokemon.moves.map(move => move.move.name).join(', ')}</p>
             </div>
         </>
