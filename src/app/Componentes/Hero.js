@@ -15,9 +15,11 @@ export default function Hero() {
                     {/* Descripción */}
                     <p className="m-4 max-w-xl text-balance">Descubre de qué tipo es tu Pokémon inicial favorito, todo el listado de sus habilidades y sus atributos.</p>
                     {/* Botón de acción */}
-                    <button className="bg-zinc-200 p-2 rounded-md m-4 font-bold border-2 border-black hover:bg-blue-500 hover:border-blue-500 hover:text-white">
+                    <a href="#probar">
+                    <button className="bg-blue-500 p-2 rounded-md m-4 font-bold border-2 border-white hover:bg-rose-500 hover:border-rose-50 text-white">
                         PROBAR APP
                     </button>
+                    </a>
                 </div>
                 {/* Imagen del héroe */}
                 <Image
